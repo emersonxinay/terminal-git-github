@@ -212,10 +212,60 @@ git reset --hard 805c4f2
 
 
 ## Posible errores de warning
+
 ```bash 
 git config core.autocrlt true
 ```
 
+# 12 comandos utiles 
+para iniciar git desde una carpeta
+```bash
+git init
+```
+para agregar todo los cambios antes de commitear
+```bash
+git add .
+```
+para regresar a estado normal del ultimo commit si hiciste cambios
+```bash
+git reset .
+```
+para commitear o crear versiones de código
+```bash
+git commit
+```
+para reconstruir todos los archivos y modificaciones sobre el ultimo commit
+```bash
+git checkout -- .
+```
+para mostrar todos los commits realizados
+```bash
+git log
+```
+para cambiar el nombre del commit
+```bash
+git commit --amend
+```
+para posicionarse en una nueva rama creada
+```bash
+git checkout -b rama-heroes
+```
+para cambiarse de rama
+```bash
+git checkout master
+```
+para eliminar una rama especifica
+```bash
+git branch -d rama-heroes
+```
+para subir hacia el github
+```bash
+git push
+```
+para agregar y commitear al mismo tiempo sobre moificaciones de archivos ya existentes
+```bash
+git commit -am
+```
 
 
 
